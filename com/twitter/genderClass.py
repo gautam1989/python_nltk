@@ -83,5 +83,5 @@ voted_classifier = VoteClassifier(
 
 print("voted_classifier accuracy percent:", (nltk.classify.accuracy(voted_classifier, test_set)) * 100)
 
-print(voted_classifier.classify(gender_features("Neo")))
-print(voted_classifier.confidence(gender_features("Neo")))
+print(voted_classifier.classify(gender_features("Neo2")))
+print(voted_classifier.confidence(gender_features("Neo2")))
